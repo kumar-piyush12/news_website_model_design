@@ -1,0 +1,83 @@
+.left--container{
+ background-color: #f7f7f7;
+ padding: 0.5rem;
+ border-radius: 1rem;
+}
+
+a{
+   color: black;
+   text-decoration: none;
+}
+
+a:hover{
+   color: rgb(133, 14, 14);
+   text-decoration: underline;
+}
+
+#main-left-headline{
+ position: relative;
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(133, 14, 14);
+}
+
+.left--headlines{
+ font-size: 1rem;
+ font-weight: bold;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+ position: relative;
+}
+
+.headline {
+ position: relative;
+}
+
+h1{
+ text-decoration: underline;
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+   #main-left-headline{
+  font-size: 1.5rem;
+  
+ }
+
+ .left--container{
+ padding: 1rem;
+ border-radius: 1rem;
+ width: 12rem;
+}
+
+.headline {
+ padding: 0rem;
+ justify-content: left;
+ 
+}
+}
+
+@media screen and (max-width: 650px) {
+
+ /* Left */
+  #main-left-headline{
+  font-size: 1.5rem;
+ }
+
+ .left--container{
+ padding: 1rem;
+ border-radius: 1rem;
+ width: 8rem;
+}
+
+
+.headline {
+ justify-content: left;
+}
+/* Left */
+
+}

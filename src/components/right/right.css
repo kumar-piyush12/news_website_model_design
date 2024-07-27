@@ -1,0 +1,87 @@
+.right--container{
+ background-color: #f7f7f7;
+ padding: 0.5rem;
+ border-radius: 1rem;
+}
+
+a{
+   color: black;
+   text-decoration: none;
+}
+
+a:hover{
+   color: rgb(133, 14, 14);
+   text-decoration: underline;
+}
+
+#main-right-headline{
+ position: relative;
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(133, 14, 14);
+}
+
+.right--headlines{
+ font-size: 1rem;
+ font-weight: bold;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+ position: relative;
+ color: black;
+}
+
+.headline {
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ text-align: left;
+}
+
+h1{
+ text-decoration: underline;
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+   #main-right-headline{
+  font-size: 1.5rem;
+ }
+
+ .right--container{
+ padding: 1rem;
+ border-radius: 1rem;
+ width: 12rem;
+}
+
+.headline {
+ padding: 0rem;
+ justify-content: left;
+}
+}
+
+@media screen and (max-width: 650px) {
+
+ /* Right */
+  #main-right-headline{
+  font-size: 1.5rem;
+  display: none;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+ .right--container{
+ padding: 1rem;
+ border-radius: 1rem;
+ width: 8rem;
+}
+
+
+.headline {
+ justify-content: left;
+ font-weight: 400;
+}
+/* Right */
+
+}

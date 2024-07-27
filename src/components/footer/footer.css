@@ -1,0 +1,45 @@
+.footer--container{
+ background-color: black;
+ height: 7rem;
+ font-size: 3rem;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ align-items: center;
+ padding: 2rem  0.5rem 1rem;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.foothead{
+ color: white;
+}
+
+#since{
+ font-size: 1.5rem;
+}
+
+.logo{
+ padding-left: 1rem;
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 650px) {
+ #since{
+ font-size: 1.5rem;
+}
+
+.logo{
+ padding-left: 1rem;
+}
+
+.footer--container{
+ font-size: 2.3rem;
+}
+}

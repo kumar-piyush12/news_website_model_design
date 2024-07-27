@@ -1,0 +1,76 @@
+.articles--container{
+ background-color: #f7f7f7;
+ padding: 0 0 3rem 0;
+ border-radius: 1rem;
+ /* display: flex;
+ flex-direction: column; */
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.articles--main{
+ padding: 3rem 2rem 3rem 2rem;
+}
+
+.articles--heading{
+ font-size: 3.5rem;
+ font-family: 'Times New Roman', Times, serif;
+ color: black;
+}
+
+.articles--image{
+ width: 80%;
+ padding: 0.5rem 0 0.5rem 0;
+ position: relative;
+ align-items: center;
+ padding: 0 0 0 80px;
+ border-radius: 0.5rem;
+}
+
+.articles--description{
+ font-size: 1.3rem;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.subheadings{
+ font-size: 1.4rem;
+ font-weight: bold;
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 650px) {
+ .articles--description{
+ font-size: 1.2rem;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.subheadings{
+ font-size: 1.2rem;
+ font-weight: 500;
+}
+
+.articles--image{
+ width: 100%;
+ padding: 1rem 0 0.4rem 0;
+ position: relative;
+ align-items: center;
+ border-radius: 0.5rem;
+}
+
+.articles--heading{
+ font-size: 2rem;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+
+}
